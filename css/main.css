@@ -239,21 +239,28 @@ a {
   color: var(--text-color);
 }
 
+.hero {
+  margin-bottom: 80px;
+}
 .hero__content {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   min-height: 650px;
-  outline: 1px solid grey;
-  background-color: lightgrey;
+}
+.hero__item {
+  outline: 1px solid red;
 }
 .hero__title-block {
+  position: absolute;
   margin-left: auto;
   max-width: 320px;
   right: 0;
   margin-right: 120px;
-  margin-top: -485px;
-  margin-bottom: 150px;
+  margin-top: 200px;
+  overflow: hidden;
+  z-index: 100000;
 }
 .hero__title {
   margin: 0;
@@ -267,6 +274,33 @@ a {
 }
 .hero__termin-link:hover {
   opacity: 0.5;
+}
+.hero__slide1 {
+  background-image: url("../img/woman-hero1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero__slide2 {
+  background-image: url("../img/woman-hero2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero__slide3 {
+  background-image: url("../img/woman-hero3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero .swiper-button-next,
+.hero .swiper-rtl,
+.hero .swiper-button-prev {
+  color: #000;
+}
+.hero .swiper-button-next::after,
+.hero .swiper-button-prev::after {
+  font-size: 30px;
+}
+.hero .swiper-pagination-bullet-active {
+  background-color: #000;
 }
 @media (max-width: 576px) {
   .hero__content {
