@@ -161,19 +161,19 @@ const swiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](el, {
   slidesPerView: 1,
   loop: true,
   pagination: {
-    el: '.swiper-pagination'
+    el: '.swiper-pagination',
   },
   // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev'
+    prevEl: '.swiper-button-prev',
   },
   scrollbar: {
     el: '.swiper-scrollbar'
   },
   autoplay: {
     delay: 2000,
-    disableOnInteraction: false
+    disableOnInteraction: false,
   }
 });
 
