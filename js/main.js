@@ -74,11 +74,11 @@ console.log((0,_functions_mobile_check__WEBPACK_IMPORTED_MODULE_0__.mobileCheck)
 //   placement: 'right'
 // });
 
-import Swiper, { Navigation, Pagination } from 'swiper';
- Swiper.use([Navigation, Pagination]);
-const swiper = new Swiper(el, {
-slidesPerView: 'auto',
- });
+//import Swiper, { Navigation, Pagination } from 'swiper';
+ //Swiper.use([Navigation, Pagination]);
+//const swiper = new Swiper(el, {
+//slidesPerView: 'auto',
+ //});
 
 // Подключение анимаций по скроллу
 // import AOS from 'aos';
